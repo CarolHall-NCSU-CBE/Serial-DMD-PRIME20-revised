@@ -1,0 +1,11 @@
+/share/hall2/vtnguye4/xtc/lib/libxdrfile.so.2.1.2
+/share/hall2/vtnguye4/xtc/lib/libxdrfile.so.2.1
+/share/hall2/vtnguye4/xtc/lib/libxdrfile.so
+/share/hall2/vtnguye4/xtc/include/xdrfile_trr.h
+/share/hall2/vtnguye4/xtc/include/xdrfile_xtc.h
+/share/hall2/vtnguye4/xtc/include/xdrfile.h
+/share/hall2/vtnguye4/xtc/include/trr_seek.h
+/share/hall2/vtnguye4/xtc/include/xtc_seek.h
+/share/hall2/vtnguye4/xtc/lib/pkgconfig/libxdrfile.pc
+/share/hall2/vtnguye4/xtc/lib/cmake/xdrfile-2.1.2/xdrfile-config.cmake
+/share/hall2/vtnguye4/xtc/lib/cmake/xdrfile-2.1.2/xdrfile-config-version.cmake

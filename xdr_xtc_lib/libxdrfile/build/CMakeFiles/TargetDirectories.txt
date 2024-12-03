@@ -1,0 +1,9 @@
+/gpfs_common/share03/hall2/vtnguye4/xtc/build/CMakeFiles/xdrfile.dir
+/gpfs_common/share03/hall2/vtnguye4/xtc/build/CMakeFiles/xdrfile_test.dir
+/gpfs_common/share03/hall2/vtnguye4/xtc/build/CMakeFiles/test.dir
+/gpfs_common/share03/hall2/vtnguye4/xtc/build/CMakeFiles/edit_cache.dir
+/gpfs_common/share03/hall2/vtnguye4/xtc/build/CMakeFiles/rebuild_cache.dir
+/gpfs_common/share03/hall2/vtnguye4/xtc/build/CMakeFiles/list_install_components.dir
+/gpfs_common/share03/hall2/vtnguye4/xtc/build/CMakeFiles/install.dir
+/gpfs_common/share03/hall2/vtnguye4/xtc/build/CMakeFiles/install/local.dir
+/gpfs_common/share03/hall2/vtnguye4/xtc/build/CMakeFiles/install/strip.dir
