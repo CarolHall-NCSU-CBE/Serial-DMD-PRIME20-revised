@@ -1,0 +1,158 @@
+Start testing: Jul 03 19:05 EDT
+----------------------------------------------------------
+1/5 Testing: Read_xtcfile
+1/5 Test: Read_xtcfile
+Command: "/gpfs_common/share03/hall2/vtnguye4/libgmxfort/build/src/tests/xtcfile"
+Directory: /gpfs_common/share03/hall2/vtnguye4/libgmxfort/build/src/tests
+"Read_xtcfile" start time: Jul 03 19:05 EDT
+Output:
+----------------------------------------------------------
+Opened test.xtc
+ for reading.
+16500 atoms present in system.
+101 frames present in trajectory file.
+ 
+[1A[KFrames saved: 101
+Closed xtc file.
+LIBGMXFORT ERROR:  is not in index file. The groups available are:
+1
+<end of output>
+Test time =   0.14 sec
+----------------------------------------------------------
+Test Failed.
+"Read_xtcfile" end time: Jul 03 19:05 EDT
+"Read_xtcfile" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/5 Testing: Read_xtcfile_and_ndxfile
+2/5 Test: Read_xtcfile_and_ndxfile
+Command: "/gpfs_common/share03/hall2/vtnguye4/libgmxfort/build/src/tests/ndxfile"
+Directory: /gpfs_common/share03/hall2/vtnguye4/libgmxfort/build/src/tests
+"Read_xtcfile_and_ndxfile" start time: Jul 03 19:05 EDT
+Output:
+----------------------------------------------------------
+Opened test.xtc
+ for reading.
+16500 atoms present in system.
+101 frames present in trajectory file.
+ 
+[1A[KFrames saved: 101
+Closed xtc file.
+LIBGMXFORT WARNING: No atoms found in index group ''.
+This warning will not appear again for any other index groups.
+TEST  1: PASSED
+TEST  2: PASSED
+TEST  3: PASSED
+TEST  4: PASSED
+TEST  5: PASSED
+TEST  6: PASSED
+TEST  7: PASSED
+ 
+Passed 7 out of 7 tests
+ 
+<end of output>
+Test time =   0.21 sec
+----------------------------------------------------------
+Test Passed.
+"Read_xtcfile_and_ndxfile" end time: Jul 03 19:05 EDT
+"Read_xtcfile_and_ndxfile" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/5 Testing: Read_ndx_grp
+3/5 Test: Read_ndx_grp
+Command: "/gpfs_common/share03/hall2/vtnguye4/libgmxfort/build/src/tests/ndxfile_grp"
+Directory: /gpfs_common/share03/hall2/vtnguye4/libgmxfort/build/src/tests
+"Read_ndx_grp" start time: Jul 03 19:05 EDT
+Output:
+----------------------------------------------------------
+Opened test.xtc
+ for reading.
+16500 atoms present in system.
+101 frames present in trajectory file.
+ 
+[1A[KFrames saved: 101
+Closed xtc file.
+LIBGMXFORT ERROR:  is not in index file. The groups available are:
+    System (16500)
+     Water (16500)
+       SOL (16500)
+      TEST (1)
+        OW (4125)
+     TEST2 (1)
+1
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Failed.
+"Read_ndx_grp" end time: Jul 03 19:05 EDT
+"Read_ndx_grp" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/5 Testing: Read_next
+4/5 Test: Read_next
+Command: "/gpfs_common/share03/hall2/vtnguye4/libgmxfort/build/src/tests/read_next"
+Directory: /gpfs_common/share03/hall2/vtnguye4/libgmxfort/build/src/tests
+"Read_next" start time: Jul 03 19:05 EDT
+Output:
+----------------------------------------------------------
+Opened test.xtc
+ for reading.
+16500 atoms present in system.
+101 frames present in trajectory file.
+ 
+[1A[KFrames saved: 100
+LIBGMXFORT ERROR:  is not in index file. The groups available are:
+    System (16500)
+     Water (16500)
+       SOL (16500)
+      TEST (1)
+        OW (4125)
+     TEST2 (1)
+1
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Failed.
+"Read_next" end time: Jul 03 19:05 EDT
+"Read_next" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/5 Testing: Utils
+5/5 Test: Utils
+Command: "/gpfs_common/share03/hall2/vtnguye4/libgmxfort/build/src/tests/utils"
+Directory: /gpfs_common/share03/hall2/vtnguye4/libgmxfort/build/src/tests
+"Utils" start time: Jul 03 19:05 EDT
+Output:
+----------------------------------------------------------
+TEST  1: PASSED
+TEST  2: PASSED
+TEST  3: PASSED
+TEST  4: PASSED
+TEST  5: PASSED
+TEST  6: PASSED
+TEST  7: PASSED
+Opened test.xtc
+ for reading.
+16500 atoms present in system.
+101 frames present in trajectory file.
+ 
+[1A[KFrames saved: 50
+ 
+[1A[KFrames saved: 51
+LIBGMXFORT ERROR:  is not in index file. The groups available are:
+    System (16500)
+     Water (16500)
+       SOL (16500)
+      TEST (1)
+        OW (4125)
+     TEST2 (1)
+1
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Failed.
+"Utils" end time: Jul 03 19:05 EDT
+"Utils" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jul 03 19:05 EDT
