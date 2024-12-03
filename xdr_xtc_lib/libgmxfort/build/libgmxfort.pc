@@ -1,0 +1,9 @@
+libdir=/gpfs_common/share03/hall2/vtnguye4/libgmxfort/lib
+includedir=/gpfs_common/share03/hall2/vtnguye4/libgmxfort/include
+
+Name: libgmxfort
+Description: Fortran toolkit for analyzing GROMACS simulations
+URL: https://github.com/wesbarnett/libgmxfort
+Version: 0.4.4
+Libs: -L${libdir} -lgmxfort
+Cflags: -I${includedir}
