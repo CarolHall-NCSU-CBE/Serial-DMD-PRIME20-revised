@@ -1,0 +1,6 @@
+# The fortran modules provided by this target.
+provides
+ gmxfort_common.mod
+ gmxfort_index.mod
+ gmxfort_trajectory.mod
+ gmxfort_utils.mod
