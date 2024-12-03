@@ -1,0 +1,9 @@
+libdir=/share/hall2/vtnguye4/xtc/lib
+includedir=/share/hall2/vtnguye4/xtc/include
+
+Name: libxdrfile
+Description: Reads/writes compressed trajectory files
+URL: https://github.com/wesbarnett/libxdrfile
+Version: 2.1.2
+Libs: -L${libdir} -lxdrfile
+Cflags: -I${includedir}
